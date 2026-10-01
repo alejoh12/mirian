@@ -30,23 +30,7 @@ export default function InfoBlocks() {
       
       {/* SUBTÍTULO EN BOLD Y MÁS GRANDE */}
       <p className="text-sm md:text-base tracking-[0.25em] font-montserrat uppercase font-bold mb-10">
-        Formal Elegante
-      </p>
-      
-      {/* Separador */}
-      <div className="w-24 h-[1px] bg-white/50 mb-8"></div>
-      
-      {/* REGLAS MUJERES EN BOLD Y MÁS GRANDE */}
-      <p className="text-xs md:text-sm tracking-[0.25em] font-montserrat uppercase font-bold leading-loose mb-10">
-        Mujeres:<br />
-        Evitar color rojo,<br />
-        bordó y blanco
-      </p>
-      
-      {/* REGLAS HOMBRES EN BOLD Y MÁS GRANDE */}
-      <p className="text-xs md:text-sm tracking-[0.25em] font-montserrat uppercase font-bold leading-loose mb-4">
-        Hombres:<br />
-        Evitar color azul
+        Elegante Sport
       </p>
 
     </section>

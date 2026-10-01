@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const photos = [
-  "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop"
+  "/M1.webp",
+  "/M4.webp",
+  "/M5.webp",
 ];
 
 export default function Carousel() {

@@ -41,7 +41,7 @@ export default function Footer() {
         {/* TU FIRMA CENTRADA: Letra más grande, sin forzar minúsculas y con más aire */}
         <div className="flex flex-col items-center font-playfair tracking-wide cursor-pointer hover:opacity-80 transition-opacity text-center">
           <span className="text-sm md:text-base font-bold">
-            &copy; Alejo Herrera 2026 - Todos los derechos reservados.
+            &copy; alejoh.dev
           </span>
         </div>
 
