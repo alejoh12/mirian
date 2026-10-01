@@ -20,8 +20,28 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "MIRIAN & MIGUEL",
-  description: "¡Nos casamos!",
+  // ACÁ VA EL LINK EXACTO DE TU PÁGINA EN VERCEL
+  metadataBase: new URL('https://mirianmiguel.vercel.app'),
+  title: "Mirian & Miguel",
+  description: "¡Nos casamos! Hacé clic para abrir nuestra invitación.",
+  openGraph: {
+    title: "MIRIAN & MIGUEL",
+    description: "¡NOS CASAMOS!",
+    url: "/",
+    siteName: "Boda Mirian & Miguel",
+    images: [
+      {
+        // Esta es la foto que va a salir en WhatsApp. 
+        // Estamos usando la que ya tenés en la carpeta public.
+        url: "/M3.webp", 
+        width: 1200,
+        height: 630,
+        alt: "Mirian y Miguel",
+      },
+    ],
+    locale: "es_AR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
