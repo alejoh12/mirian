@@ -24,7 +24,7 @@ export default function BodasMirian() {
       <Playlist />
       <RSVP />
       <ClosingPhoto />
-      {/* <FloatingMusic /> */}
+      <FloatingMusic />
       <Footer />
     </main>
   );
