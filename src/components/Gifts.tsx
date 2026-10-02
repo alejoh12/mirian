@@ -47,10 +47,16 @@ export default function Gifts() {
 
       {/* VENTANA EMERGENTE (MODAL) */}
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in"
+          onClick={() => setIsOpen(false)} // <-- AGREGADO: Cierra al tocar el fondo oscuro
+        >
           
           {/* Contenedor del Modal */}
-          <div className="relative w-full max-w-sm bg-[#939F8C] p-2 shadow-2xl">
+          <div 
+            className="relative w-full max-w-sm bg-[#939F8C] p-2 shadow-2xl"
+            onClick={(e) => e.stopPropagation()} // <-- AGREGADO: Frena el clic para que no se cierre al tocar la tarjeta
+          >
             
             {/* Botón Cerrar (X) por fuera del borde interno */}
             <button 
