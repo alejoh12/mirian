@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Playlist from "@/components/Playlist";
 import ClosingPhoto from "@/components/ClosingPhoto";
 import FloatingMusic from "@/components/FloatingMusic";
+import Gifts from "@/components/Gifts";
 
 export default function BodasMirian() {
   return (
@@ -19,8 +20,10 @@ export default function BodasMirian() {
       <Phrase>EL DÍA MÁS ESPERADO DE NUESTRAS VIDAS ESTÁ LLEGANDO...</Phrase>
       <Carousel />
       <Itinerary />
-      {/* <Phrase>UNA HISTORIA DE AMOR QUE VALE LA PENA CELEBRAR</Phrase> */}
       <InfoBlocks />
+      <Gifts />
+      <Phrase>UNA HISTORIA DE AMOR QUE VALE LA PENA CELEBRAR</Phrase>
+      <Carousel />
       <Playlist />
       <RSVP />
       <ClosingPhoto />
