@@ -1,6 +1,6 @@
 export default function Playlist() {
   return (
-    <section className="bg-white py-24 px-6 text-center flex flex-col items-center">
+    <section className="bg-white py-18 px-6 text-center flex flex-col items-center">
       
       {/* 🎵 Animación CSS suave (la misma que usamos en el itinerario) */}
       <style>{`

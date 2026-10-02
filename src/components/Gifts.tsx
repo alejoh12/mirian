@@ -128,7 +128,7 @@ export default function Gifts() {
 
               </div>
               
-              <p className="mt-8 text-[10px] opacity-60 normal-case tracking-normal">
+              <p className="mt-8 text-[13px] opacity-45 normal-case tracking-normal">
                 (Toca el Alias o el CBU para copiarlos)
               </p>
             </div>
