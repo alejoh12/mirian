@@ -26,7 +26,7 @@ export default function Itinerary() {
       id: 2,
       title: "IGLESIA",
       date: "21 DE NOVIEMBRE DE 2026", 
-      time: "21:00 HS",
+      time: "21:30 HS",
       embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.7663786180688!2d-65.4536512!3d-27.320499200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423b7ad6c7cc3dd%3A0x3543fb3a4728be43!2sCapilla%20Nuestra%20Se%C3%B1ora%20de%20Loudes!5e0!3m2!1ses!2sar!4v1790825011430!5m2!1ses!2sar",
       icon: (
         <svg className="w-12 h-12 md:w-14 md:h-14 text-[#a3a3a3]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
