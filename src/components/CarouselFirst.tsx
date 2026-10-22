@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 
 const photos = [
-  "/M1.webp",
-  "/M4.webp",
-  "/M5.webp",
+  "/M01.webp",
+  "/M04.webp",
+  "/M05.webp",
 ];
 
-export default function Carousel() {
+export default function CarouselFirst() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Cambia la foto cada 3 segundos automáticamente

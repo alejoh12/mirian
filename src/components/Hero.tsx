@@ -32,8 +32,8 @@ export default function Hero() {
         md:bg-[50%_35%] ancla la foto exactamente en el tercio superior en PC.
       */}
       <div 
-        className="absolute inset-0 bg-cover bg-center md:bg-[50%_35%]"
-        style={{ backgroundImage: "url('/M3.webp')" }} 
+        className="absolute inset-0 bg-cover bg-center md:bg-[50%_35%] lg:bg-[30%_15%]"
+        style={{ backgroundImage: "url('/M03.jpg')" }} 
       />
       
       {/* Degradado (un poco más alto en PC para que el texto resalte sobre la foto agrandada) */}

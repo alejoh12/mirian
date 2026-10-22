@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
 
       {/* 2. Barra inferior verde oliva */}
-      <div className="bg-[#939F8C] w-full py-8 px-6 flex flex-col items-center justify-center text-white relative">
+      <div className="bg-[#939F8C] w-full py-5 px-6 flex flex-col items-center justify-center text-white relative">
         
         {/* TU FIRMA CENTRADA: Letra más grande, sin forzar minúsculas y con más aire */}
         <div className="flex flex-col items-center font-playfair tracking-wide cursor-pointer hover:opacity-80 transition-opacity text-center">
