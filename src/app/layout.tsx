@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       {
         // Esta es la foto que va a salir en WhatsApp. 
         // Estamos usando la que ya tenés en la carpeta public.
-        url: "/M3.webp", 
+        url: "/M03.webp", 
         width: 1200,
         height: 630,
         alt: "Mirian y Miguel",
